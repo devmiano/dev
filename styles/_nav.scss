@@ -1,0 +1,34 @@
+@use 'base';
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin link {
+  text-decoration: none;
+  cursor: pointer;
+  color: base.$spring;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.nav {
+  @include flex-center;
+  padding: 0 5rem;
+  height: 100px;
+
+  .nav-logo {
+    @include link;
+  }
+
+  .nav-links {
+    @include flex-center;
+
+    .nav-link {
+      @include link;
+      margin: 2rem 1rem;
+    }
+  }
+}

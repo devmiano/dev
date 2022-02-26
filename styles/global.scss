@@ -1,4 +1,6 @@
 @use 'base';
+@use 'typography';
+@use 'nav';
 
 * {
   font-family: base.$urbanist;
@@ -11,4 +13,5 @@
 
 body {
   background-color: base.$darker;
+  font-size: 16px;
 }
