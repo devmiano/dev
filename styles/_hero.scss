@@ -1,7 +1,49 @@
+@use 'base';
+
 .hero {
   width: 100%;
-}
+  padding: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
-.hero-image {
-  float: right;
+  .hero-content {
+    margin-right: 5rem;
+
+    .hero-intro {
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: base.$cyan;
+
+      .hero-intro-span {
+        color: base.$lime;
+      }
+    }
+
+    .hero-text {
+      font-size: 4rem;
+      font-weight: 600;
+      color: base.$cyan;
+      margin-bottom: 5rem;
+      .hero-brand-span {
+        color: base.$lime;
+      }
+    }
+
+    .hero-cta {
+      padding: 1.5rem 5rem;
+      color: base.$lime;
+      background-color: base.$dye;
+      outline: none;
+      border: none;
+      cursor: pointer;
+      font-size: 1.3rem;
+      letter-spacing: 0.1rem;
+      border-radius: 0.2rem;
+      font-weight: 500;
+    }
+  }
+
+  .hero-image {
+  }
 }
