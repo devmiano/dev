@@ -1,0 +1,60 @@
+@use 'base';
+
+.about {
+  display: flex;
+  margin: 5rem;
+  align-items: center;
+  margin: 3rem;
+
+  .about-cards {
+    max-width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    .card {
+      width: 320px;
+      height: 400px;
+      background-color: base.$indigo;
+      margin: 2rem;
+      border-radius: 0.4rem;
+      .card-title {
+        color: base.$cyan;
+        font-size: 2rem;
+        padding: 2rem;
+        letter-spacing: 0.03rem;
+      }
+      .card-tags {
+        color: base.$lime;
+        text-align: right;
+        padding: 2rem;
+        margin-top: 7rem;
+        .tag {
+          font-size: 1rem;
+          letter-spacing: 0.06rem;
+          line-height: 1.5rem;
+        }
+      }
+    }
+  }
+
+  .about-content {
+    .about-title {
+      color: base.$cyan;
+      font-size: 4rem;
+      font-weight: 600;
+
+      .about-title-span {
+        color: base.$lime;
+      }
+    }
+    .about-text {
+      color: base.$teal;
+      font-size: 1.2rem;
+      font-weight: 400;
+      padding-top: 2rem;
+      letter-spacing: 0.06rem;
+      line-height: 1.5rem;
+    }
+  }
+}
