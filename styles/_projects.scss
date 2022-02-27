@@ -1,0 +1,75 @@
+@use 'base';
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem;
+
+  .project-title {
+    color: base.$cyan;
+    font-size: 4rem;
+    font-weight: 600;
+    text-align: center;
+    line-height: 4rem;
+
+    .project-title-span {
+      color: base.$lime;
+    }
+  }
+
+  .project-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5rem 0;
+
+    .card {
+      width: 440px;
+      height: 550px;
+      background-color: base.$indigo;
+      margin: 2rem;
+      border-radius: 0.4rem;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+      padding: 2rem;
+
+      .card-tag {
+        color: base.$teal;
+        font-size: 1.1rem;
+        font-weight: 500;
+        letter-spacing: 0.03rem;
+        padding: 0.9rem 2rem;
+        background-color: base.$black;
+        border-radius: 0.2rem;
+      }
+      .card-header {
+        margin-top: 5rem;
+        .card-title {
+          color: base.$cyan;
+          font-size: 2rem;
+          font-weight: 600;
+          letter-spacing: 0.03rem;
+          line-height: 2rem;
+          margin-bottom: 2rem;
+        }
+        .card-button {
+          color: base.$lime;
+          font-size: 1.2rem;
+          letter-spacing: 0.03rem;
+          background-color: base.$indigo;
+          outline: none;
+          border: none;
+          cursor: pointer;
+          margin-top: 1.8rem;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
