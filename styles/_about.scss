@@ -12,12 +12,18 @@
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
+
     .card {
       width: 320px;
       height: 400px;
       background-color: base.$indigo;
       margin: 2rem;
       border-radius: 0.4rem;
+      cursor: pointer;
+
+      &:hover {
+        background-color: base.$dye;
+      }
       .card-title {
         color: base.$cyan;
         font-size: 2rem;

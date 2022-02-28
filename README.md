@@ -15,4 +15,4 @@ yarn dev: build locally - localhost
 
 yarn build: build for production
 
-#### Copyright 2022 devmiano
+<!-- #### Copyright 2022 [devmiano]() -->
