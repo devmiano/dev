@@ -1,0 +1,19 @@
+@use 'base';
+
+.footer {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: base.$indigo;
+
+  p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: base.$cyan;
+    a {
+      text-decoration: none;
+      color: base.$lime;
+    }
+  }
+}
