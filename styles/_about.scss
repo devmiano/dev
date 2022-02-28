@@ -25,11 +25,14 @@
         letter-spacing: 0.03rem;
         line-height: 2.4rem;
       }
+      .card-icon {
+        height: 7rem;
+        padding-left: 2rem;
+      }
       .card-tags {
         color: base.$lime;
         text-align: right;
         padding: 2rem;
-        margin-top: 7rem;
         .tag {
           font-size: 1rem;
           letter-spacing: 0.06rem;
