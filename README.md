@@ -3,7 +3,9 @@
 ## I'm sammy Muchiri and here's my portfolio
 
 Project name: devmiano portfolio
+
 Author: Sammy Muchiri
+
 Project link: [devmiano portfolio](https://devmiano.vercel.app/)
 
 This is a portfolio in html and uses sass for styling.
